@@ -54,6 +54,16 @@ All systems must be contained within the <systemList> tag.-->
   </system>
   
   <system>
+    <name>Dreamcast</name>
+    <fullname>Sega Dreamcast</fullname>
+    <path>~/.emulationstation/roms/DC</path>
+    <extension> .mds, .MDS, .mdf, .MDF, .bin, .BIN, .cue, .CUE, .cdi, .CDI</extension>
+    <command>%HOMEPATH%\.emulationstation\systems\DC\nullDC.exe -config nullDC_GUI:Fullscreen=0 -config nullDC:Emulator.Autostart=1 -config ImageReader:LoadDefaultImage=1 -config ImageReader:DefaultImage="%ROM_RAW%"</command>
+    <platform>segadreamcast</platform>
+    <theme>dreamcast</theme>
+  </system>
+  
+  <system>
     <name>fba</name>
     <fullname>Final Burn Alpha</fullname>
     <path>~/.emulationstation/roms/fba</path>
