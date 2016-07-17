@@ -1,0 +1,1 @@
+extract designated emulators in the correct folders from the root directory.

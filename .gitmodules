@@ -1,0 +1,18 @@
+[submodule ".emulationstation/themes/carbon"]
+	path = .emulationstation/themes/carbon
+	url = https://github.com/RetroPie/es-theme-carbon.git
+[submodule ".emulationstation/themes/carbon-nometa"]
+	path = .emulationstation/themes/carbon-nometa
+	url = https://github.com/RetroPie/es-theme-carbon-nometa.git
+[submodule ".emulationstation/themes/carbon-centered"]
+	path = .emulationstation/themes/carbon-centered
+	url = https://github.com/RetroPie/es-theme-carbon-centered.git
+[submodule ".emulationstation/themes/pixel"]
+	path = .emulationstation/themes/pixel
+	url = https://github.com/RetroPie/es-theme-pixel.git
+[submodule ".emulationstation/themes/simple"]
+	path = .emulationstation/themes/simple
+	url = https://github.com/RetroPie/es-theme-simple.git
+[submodule ".emulationstation/themes/tronkyfran"]
+	path = .emulationstation/themes/tronkyfran
+	url = https://github.com/HerbFargus/es-theme-tronkyfran.git

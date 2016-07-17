@@ -1,0 +1,3 @@
+msvcp120d
+msvcr120d
+vcomp120d

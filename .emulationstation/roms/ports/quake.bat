@@ -1,0 +1,1 @@
+.emulationstation\systems\retroarch\retroarch.exe -L .emulationstation\systems\retroarch\cores\tyrquake_libretro.dll .emulationstation\roms\ports\quake\id1\pak0.pak .emulationstation\roms\ports\quake\id1\pak1.pak
