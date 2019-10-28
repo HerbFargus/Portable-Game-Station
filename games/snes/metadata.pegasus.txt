@@ -1,0 +1,4 @@
+collection: Super Nintendo Entertainment System
+shortname: snes
+extensions:  7z, bin, smc, sfc, fig, swc, mgd, zip, bin
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\snes9x_libretro.dll {file.path} -f
