@@ -2,4 +2,4 @@
 
 ***
 
-A set of configurations for EmulationStation and RetroArch on Windows that can be installed on a USB or portable hard drive.
+A set of configurations for Pegasus and RetroArch on Windows that can be installed on a USB or portable hard drive.

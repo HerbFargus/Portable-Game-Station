@@ -1,1 +1,0 @@
-.emulationstation\systems\retroarch\retroarch.exe -L .emulationstation\systems\retroarch\cores\prboom_libretro.dll .emulationstation\roms\ports\doom\doom.wad

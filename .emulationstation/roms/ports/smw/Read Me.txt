@@ -1,1 +1,0 @@
-Download missing DLLs MSVCR71.dll and MSVCP71.dll

@@ -1,1 +1,0 @@
-.emulationstation\systems\retroarch\retroarch.exe

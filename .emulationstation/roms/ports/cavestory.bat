@@ -1,1 +1,0 @@
-.emulationstation\systems\retroarch\retroarch.exe -L .emulationstation\systems\retroarch\cores\nxengine_libretro.dll .emulationstation\roms\ports\cavestory\Doukutsu.exe

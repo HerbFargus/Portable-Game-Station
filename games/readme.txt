@@ -1,0 +1,1 @@
+place your games folders here (snes, nes, etc)
