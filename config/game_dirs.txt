@@ -1,0 +1,4 @@
+./games/3do
+./games/fds
+./games/nes
+./games/snes

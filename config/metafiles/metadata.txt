@@ -1,3 +1,23 @@
+collection: 3DO Interactive Multiplayer
+shortname: 3do
+directory: ..\..\games\3do
+extensions:  iso
+ignore-file: panafz10.bin
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\4do_libretro.dll {file.path} -f
+
+collection: Famicom Disk System
+shortname: fds
+directory: ..\..\games\fds
+extensions:  7z, nes, fds, zip
+ignore-file: disksys.rom
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\nestopia_libretro.dll {file.path} -f
+
+collection: Nintendo Entertainment System
+shortname: nes
+directory: ..\..\games\nes
+extensions:  7z, nes, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\fceumm_libretro.dll {file.path} -f
+
 collection: Super Nintendo Entertainment System
 shortname: snes
 directory: ..\..\games\snes
