@@ -1,4 +1,11 @@
 ./games/3do
+./games/atari2600
+./games/atari5200
+./games/atari7800
+./games/atari800
+./games/atarijaguar
+./games/atarilynx
+./games/atarist
 ./games/fds
 ./games/nes
 ./games/snes

@@ -5,6 +5,53 @@ extensions:  iso
 ignore-file: panafz10.bin
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\4do_libretro.dll {file.path} -f
 
+collection: Atari 2600
+shortname: atari2600
+directory: ..\..\games\atari2600
+extensions:  7z, a26, bin, rom, zip, gz
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\stella_libretro.dll {file.path} -f
+
+collection: Atari 5200
+shortname: atari5200
+directory: ..\..\games\atari5200
+extensions:  7z, a52, bin, car, zip
+ignore-file: ATARIXL.ROM, ATARIBAS.ROM, ATARIOSA.ROM, ATARIOSB.ROM, 5200.rom
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\atari800_libretro.dll {file.path} -f
+
+collection: Atari 7800
+shortname: atari7800
+directory: ..\..\games\atari7800
+extensions:  7z, a78, bin, zip
+ignore-file: 7800 BIOS (U).rom
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\prosystem_libretro.dll {file.path} -f
+
+collection: Atari 800
+shortname: atari800
+directory: ..\..\games\atari5200
+extensions:  7z, atr, atr.gz, atx, bas, bin, car, cas, com, dcm, rom, xex, xfd, xfd.gz, zip
+ignore-file: ATARIXL.ROM, ATARIBAS.ROM, ATARIOSA.ROM, ATARIOSB.ROM, 5200.rom
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\atari800_libretro.dll {file.path} -f
+
+collection: Atari Jaguar
+shortname: atarijaguar
+directory: ..\..\games\atarijaguar
+extensions:  j64, jag, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\virtualjaguar_libretro.dll {file.path} -f
+
+collection: Atari Lynx
+shortname: atarilynx
+directory: ..\..\games\atarilynx
+extensions:  7z, lnx, zip
+ignore-file: lynxboot.img
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\handy_libretro.dll {file.path} -f
+
+collection: Atari ST
+shortname: atarist
+directory: ..\..\games\atarist
+extensions:  st, stx, img, rom, raw, ipf, ctr
+ignore-file: TOS 1.00, 1.02, 1.04, 2.06 (ST), TOS 1.xx, 2.xx (STE), TOS 3.0x (TT), TOS 4.0x (Falcon)
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\hatari_libretro.dll {file.path} -f
+
 collection: Famicom Disk System
 shortname: fds
 directory: ..\..\games\fds
