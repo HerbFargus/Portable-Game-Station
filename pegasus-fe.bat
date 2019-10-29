@@ -1,0 +1,1 @@
+%~dp0%pegasus-fe.exe --portable
