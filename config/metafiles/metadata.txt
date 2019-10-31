@@ -1,63 +1,197 @@
 collection: 3DO Interactive Multiplayer
 shortname: 3do
 directory: ..\..\games\3do
-extensions:  iso
+extensions: iso
 ignore-file: panafz10.bin
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\4do_libretro.dll {file.path} -f
+
+collection: Amstrad CPC
+shortname: amstradcpc
+directory: ..\..\games\amstradcpc
+extensions: cdt, cpc, dsk, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\cap32_libretro.dll {file.path} -f
 
 collection: Atari 2600
 shortname: atari2600
 directory: ..\..\games\atari2600
-extensions:  7z, a26, bin, rom, zip, gz
+extensions: 7z, a26, bin, rom, zip, gz
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\stella_libretro.dll {file.path} -f
 
 collection: Atari 5200
 shortname: atari5200
 directory: ..\..\games\atari5200
-extensions:  7z, a52, bin, car, zip
+extensions: 7z, a52, bin, car, zip
 ignore-file: ATARIXL.ROM, ATARIBAS.ROM, ATARIOSA.ROM, ATARIOSB.ROM, 5200.rom
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\atari800_libretro.dll {file.path} -f
 
 collection: Atari 7800
 shortname: atari7800
 directory: ..\..\games\atari7800
-extensions:  7z, a78, bin, zip
+extensions: 7z, a78, bin, zip
 ignore-file: 7800 BIOS (U).rom
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\prosystem_libretro.dll {file.path} -f
 
 collection: Atari 800
 shortname: atari800
 directory: ..\..\games\atari5200
-extensions:  7z, atr, atr.gz, atx, bas, bin, car, cas, com, dcm, rom, xex, xfd, xfd.gz, zip
+extensions: 7z, atr, atr.gz, atx, bas, bin, car, cas, com, dcm, rom, xex, xfd, xfd.gz, zip
 ignore-file: ATARIXL.ROM, ATARIBAS.ROM, ATARIOSA.ROM, ATARIOSB.ROM, 5200.rom
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\atari800_libretro.dll {file.path} -f
 
 collection: Atari Jaguar
 shortname: atarijaguar
 directory: ..\..\games\atarijaguar
-extensions:  j64, jag, zip
+extensions: j64, jag, zip
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\virtualjaguar_libretro.dll {file.path} -f
 
 collection: Atari Lynx
 shortname: atarilynx
 directory: ..\..\games\atarilynx
-extensions:  7z, lnx, zip
+extensions: 7z, lnx, zip
 ignore-file: lynxboot.img
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\handy_libretro.dll {file.path} -f
 
 collection: Atari ST
 shortname: atarist
 directory: ..\..\games\atarist
-extensions:  st, stx, img, rom, raw, ipf, ctr
+extensions: st, stx, img, rom, raw, ipf, ctr
 ignore-file: TOS 1.00, 1.02, 1.04, 2.06 (ST), TOS 1.xx, 2.xx (STE), TOS 3.0x (TT), TOS 4.0x (Falcon)
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\hatari_libretro.dll {file.path} -f
+
+collection: ColecoVision
+shortname: colecovision
+directory: ..\..\games\colecovision
+extensions: bin, col, rom, zip
+ignore-file: Databases, Machines
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\bluemsx_libretro.dll {file.path} -f
+
+collection: Dreamcast
+shortname: dreamcast
+directory: ..\..\games\dreamcast
+extensions: cdi, chd, gdi, sh, zip
+ignore-file: dc_boot.bin, dc_flash.bin
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\flycast_libretro.dll {file.path} -f
+
+collection: Final Burn Alpha
+shortname: fba
+directory: ..\..\games\fba
+extensions: 7z, zip
+ignore-file: neogeo.zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\fbneo_libretro.dll {file.path} -f
 
 collection: Famicom Disk System
 shortname: fds
 directory: ..\..\games\fds
-extensions:  7z, nes, fds, zip
+extensions: 7z, nes, fds, zip
 ignore-file: disksys.rom
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\nestopia_libretro.dll {file.path} -f
+
+collection: Game Boy Advance
+shortname: gba
+directory: ..\..\games\gba
+extensions: 7z, gba, zip
+ignore-file: gba_bios.bin
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\mgba_libretro.dll {file.path} -f
+
+collection: Game Boy Color
+shortname: gbc
+directory: ..\..\games\gbc
+extensions: 7z, gbc, zip
+ignore-file: gbc_bios.bin, sgb_bios.bin
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\mgba_libretro.dll {file.path} -f
+
+collection: Game Boy
+shortname: gb
+directory: ..\..\games\gb
+extensions: 7z, gb, zip
+ignore-file: gbc_bios.bin, sgb_bios.bin
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\mgba_libretro.dll {file.path} -f
+
+collection: GameCube
+shortname: gc
+directory: ..\..\games\gc
+extensions:  iso
+launch: ..\..\systems\dolphin\Dolphin.exe -e {file.path}
+
+collection: Game Gear
+shortname: gamegear
+directory: ..\..\games\gamegear
+ignore-file: bios.gg 
+extensions: 7z, gg, bin, sms, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\genesis_plus_gx_libretro.dll {file.path} -f
+
+collection: Game and Watch
+shortname: gameandwatch
+directory: ..\..\games\gameandwatch
+extensions: mgw, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\gw_libretro.dll {file.path} -f
+
+collection: Genesis
+shortname: genesis
+directory: ..\..\games\genesis
+ignore-file: bios_MD.bin
+extensions: 7z, bin, gen, md, sg, smd, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\genesis_plus_gx_libretro.dll {file.path} -f
+
+collection: Intellivision
+shortname: intellivision
+directory: ..\..\games\intellivision
+ignore-file: exec.bin, grom.bin
+extensions: 7z, bin, int, itv, rom, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\freeintv_libretro.dll {file.path} -f
+
+collection: MAME
+shortname: mame
+directory: ..\..\games\mame
+ignore-file: neogeo.zip
+extensions: zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\mame2003_plus_libretro.dll {file.path} -f
+
+collection: Master System
+shortname: mastersystem
+directory: ..\..\games\mastersystem
+ignore-file: bios_E.sms, bios_U.sms, bios_J.sms
+extensions: 7z, sms, bin, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\genesis_plus_gx_libretro.dll {file.path} -f
+
+collection: Megadrive
+shortname: megadrive
+directory: ..\..\games\megadrive
+ignore-file: bios_MD.bin
+extensions: 7z, bin, gen, md, sg, smd, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\genesis_plus_gx_libretro.dll {file.path} -f
+
+collection: MSX
+shortname: msx
+directory: ..\..\games\msx
+extensions: rom, mx1, mx2, col, dsk, zip, m3u
+ignore-file: Databases, Machines
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\bluemsx_libretro.dll {file.path} -f
+
+collection: Neo Geo Pocket
+shortname: ngp
+directory: ..\..\games\ngp
+extensions: 7z, ngp, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\mednafen_ngp_libretro.dll {file.path} -f
+
+collection: Neo Geo Pocket Color
+shortname: ngpc
+directory: ..\..\games\ngpc
+extensions: 7z, ngpc, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\mednafen_ngp_libretro.dll {file.path} -f
+
+collection: Nintendo 64
+shortname: n64
+directory: ..\..\games\n64
+extensions:  z64, n64, v64, zip
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\mupen64plus_next_libretro.dll {file.path} -f
+
+collection: Nintendo DS
+shortname: nds
+directory: ..\..\games\nds
+extensions:  7z, nds, zip
+ignore-file: bios7.bin, bios9.bin, firmware.bin
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\desmume_libretro.dll {file.path} -f
 
 collection: Nintendo Entertainment System
 shortname: nes
@@ -65,8 +199,20 @@ directory: ..\..\games\nes
 extensions:  7z, nes, zip
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\fceumm_libretro.dll {file.path} -f
 
+collection: ScummVM
+shortname: scummvm
+directory: ..\..\games\scummvm
+extensions:  scummvm
+launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\scummvm_libretro.dll {file.path} -f
+
 collection: Super Nintendo Entertainment System
 shortname: snes
 directory: ..\..\games\snes
 extensions:  7z, bin, smc, sfc, fig, swc, mgd, zip, bin
 launch: ..\..\systems\retroarch\retroarch.exe -L ..\..\systems\retroarch\cores\snes9x_libretro.dll {file.path} -f
+
+collection: Wii
+shortname: wii
+directory: ..\..\games\wii
+extensions:  iso
+launch: ..\..\systems\dolphin\Dolphin.exe -e {file.path}
