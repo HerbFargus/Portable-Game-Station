@@ -1,0 +1,35 @@
+Pegasus Frontend: 
+
+Open pegasus-fe.bat 
+
+The reason we use a .bat file is it allows pegasus to run from a USB or 
+portable hard drive and isn't required to be installed on the computer.
+This build will only look for preset paths from the portable launch, otherwise
+it won't find any of your assets if you just launch the executable.
+
+Games:
+
+Add your games and ROMS to the /games/[CONSOLE] folder
+
+Bios:
+
+Add the required BIOS files to /systems/retroarch/system
+
+Pre-Requisites:
+
+For video/audio playback in Pegasus you may need to install some extra codecs.
+Use the K-Lite Codec Pack (basic version should be fine):
+https://www.codecguide.com/download_kl.htm
+
+Scraping:
+
+Skraper is a good tool for scraping assets for your games:
+https://www.skraper.net/
+
+Skraper Conversion:
+
+Since Skraper doesn't quite yet have a profile for Pegasus, you can use this tool
+to convert the .dat files to .xml files compatible with pegasus:
+
+https://pegasus-frontend.org/tools/convert/
+
