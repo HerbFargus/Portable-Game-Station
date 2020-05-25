@@ -26,6 +26,8 @@ Scraping:
 Skraper is a good tool for scraping assets for your games:
 https://www.skraper.net/
 
+Depending on the pegasus theme, you may want different assets. The default emulationstation profile is a good default option that can be converted using the database conversion tool. The resulting xml would be placed in the respective game folder.
+
 Skraper Conversion:
 
 Since Skraper doesn't quite yet have a profile for Pegasus, you can use this tool
